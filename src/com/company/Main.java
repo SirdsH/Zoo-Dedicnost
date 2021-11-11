@@ -15,6 +15,12 @@ public class Main {
         kocka.fallDown();
         System.out.println(kocka.getLivesCount());
         ArrayList<Animal> animal = new ArrayList<>();
+        animal.add(pes);
+        animal.add(kocka);
+        animal.add(kachna);
+        for (int i = 0; i < animal.size(); i++) {
+            animal.get(i).print();
+        }
 
     }
 }
