@@ -14,6 +14,12 @@ public class Kocka extends Animal {
         livesCount -= 1;
     }
 
+    public void isDead() {
+        if (livesCount <=    0) {
+            System.out.println(getName() + " is dead!!!");
+        } else System.out.println(getName() + " is alive!!!");
+    }
+
     public int getLivesCount() {
         return livesCount;
     }
